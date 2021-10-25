@@ -3,14 +3,14 @@
     box-sizing: border-box;
     
 }
-
+/* adding styles to the body*/
 body {
     
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/* header nav, ul, list, and anchor styles below*/
 header nav {
     margin: 7px 0;
     position: relative;
@@ -37,7 +37,7 @@ header nav ul li a {
 
     
 }
-
+/* style when hover over 'li' items*/
 header nav ul li a:hover {
     background: var(--primary-color);
     color: orange;
@@ -45,12 +45,12 @@ header nav ul li a:hover {
     text-shadow: none;
     
 }
-
+/*header image styling*/
 header  img {
     padding: 10%;
     max-width: 100%;
 }
-
+/* header h1 style*/
 header h1  {
     display: flex;
     justify-content: center;
@@ -60,7 +60,7 @@ header h1  {
     color: black;
     text-shadow: 0 2 10px(lime);
 }
-
+/*about styles below*/
 .about  {
     padding: 2px;
     text-align: center;
@@ -91,8 +91,10 @@ header h1  {
     background-attachment: fixed;
     background-position: 50%;
     z-index: 9999;
+    max-width: 1000px;
+    margin:auto
 }
-
+/*section styles*/
 section {
     padding: 40px;
 }
@@ -103,10 +105,7 @@ section img {
     
 }
 
-.main {
-    max-width: 1000px;
-    margin:auto
-}
+
 
 
 
