@@ -1,5 +1,7 @@
+/* apply to all*/
 * {
     box-sizing: border-box;
+    
 }
 
 body {
@@ -45,11 +47,11 @@ header nav ul li a:hover {
 }
 
 header  img {
-    padding: 25%;
+    padding: 10%;
     max-width: 100%;
 }
 
-header h1 a {
+header h1  {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,17 +61,19 @@ header h1 a {
     text-shadow: 0 2 10px(lime);
 }
 
-header h2 {
+.about  {
     padding: 50px;
     text-align: center;
+    
+    
 }
 
-header h2 p {
+.about {
     padding: 50px;
     margin: 3.5%;
 }
 
-header h2 p {
+.about {
     background:rgba(52, 185, 19, 0.589);
     border: 3px solid rgba(52, 185, 19, 0.267);
 }
@@ -78,7 +82,7 @@ header h2 p {
 /* Main Website */
 
 .main {
-    background-image: url("../assets/Images/error.png");
+    
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -87,7 +91,7 @@ header h2 p {
 }
 
 section {
-    padding: 60px;
+    padding: 40px;
 }
 
 section img {
@@ -102,10 +106,9 @@ section img {
 }
 
 .column {
-    float: left;
-    width: 100%;
+    
+    width: 50%;
     color: white;
-    box-sizing: border-box;
     
 }
 
@@ -116,6 +119,9 @@ section img {
     background-color:  rgba(0, 0, 0, 0.445);
     padding: 10px;
     margin-right: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    
     
     
 }
@@ -126,7 +132,6 @@ section img {
     background-color: rgba(0, 0, 0, 0.445);
     padding: 10px;
     
-    margin-right: 20px;
     
 }
 
@@ -154,14 +159,41 @@ section img {
 
 /*responsive layouts*/
 
-@media screen and (max-width: 900px) {
-    .column{
-        width: 50%;
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
     }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    
 }
 
-@media screen and (max-width: 600px) {
-    .column{
-        width: 100%;
+/* Media query for tablets and smaller */
+@media screen and (max-width: 768px) {
+    section {
+        padding: 30px 15px,
     }
+
+    
+    
 }
+
+
+   
