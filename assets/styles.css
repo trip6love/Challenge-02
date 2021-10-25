@@ -9,8 +9,6 @@ body {
 }
 
 
-
-
 header nav {
     margin: 7px 0;
     position: relative;
@@ -46,9 +44,10 @@ header nav ul li a:hover {
     
 }
 
-
-    
-
+header  img {
+    padding: 25%;
+    max-width: 100%;
+}
 
 header h1 a {
     display: flex;
@@ -67,8 +66,17 @@ header h2 {
 
 header h2 p {
     padding: 50px;
+    margin: 3.5%;
 }
+
+header h2 p {
+    background:rgba(52, 185, 19, 0.589);
+    border: 3px solid rgba(52, 185, 19, 0.267);
+}
+
+
 /* Main Website */
+
 .main {
     background-image: url("../assets/Images/error.png");
     background-size: cover;
@@ -93,17 +101,17 @@ section img {
     margin:auto
 }
 
-
-
-
-
 .column {
     float: left;
     width: 100%;
     color: white;
+    box-sizing: border-box;
     
 }
+
+
 /*content*/
+
 .content {
     background-color:  rgba(0, 0, 0, 0.445);
     padding: 10px;
@@ -113,7 +121,7 @@ section img {
 }
 
 
-
+/*Run buddy img*/
 .run-buddy {
     background-color: rgba(0, 0, 0, 0.445);
     padding: 10px;
@@ -121,19 +129,31 @@ section img {
     margin-right: 20px;
     
 }
+
+
+
+
 /*footer*/
+
 .footer {
+    text-align: center;
     width: 100%;
-    padding: 40px 35px;
+    padding: 40px ;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     background:rgba(52, 185, 19, 0.589);
     border: 3px solid rgba(52, 185, 19, 0.267);
+    
 }
 
+
+
+
+
 /*responsive layouts*/
+
 @media screen and (max-width: 900px) {
     .column{
         width: 50%;
