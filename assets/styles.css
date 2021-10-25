@@ -106,10 +106,6 @@ section img {
 }
 
 
-
-
-
-
 /*content*/
 
 .content {
@@ -131,10 +127,7 @@ section img {
     padding: 10px;
     width:200% auto
     
-    
 }
-
-
 
 
 /*footer*/
@@ -151,9 +144,6 @@ section img {
     border: 3px solid rgba(52, 185, 19, 0.267);
     
 }
-
-
-
 
 
 /*responsive layouts*/
@@ -193,6 +183,3 @@ section img {
     
     
 }
-
-
-   
