@@ -6,4 +6,4 @@ I created a portfolio to showcase my work and most recent challenge, "Run Buddy"
 
 # Deployed Website
 
-[Portfolio] https://trip6love.github.io/Challenge-02/
+[Portfolio](https://trip6love.github.io/Challenge-02/)
