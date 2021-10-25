@@ -3,29 +3,17 @@
 }
 
 body {
-    background-color: lime;
+    
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    padding: 20px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    background-image: url("./assets/Images/error.png");
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-position: 80%;
-    z-index: 9999;
-}
+
+
 
 header nav {
-margin: 7px 0;
+    margin: 7px 0;
+    position: relative;
 }
 
 header nav ul {
@@ -38,10 +26,15 @@ header nav ul {
 
 header nav ul li a {
     padding: 10px 15px;
-    font-weight: ligher;
+    font-weight: bold;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     color: Black;
+    text-decoration: none;
+    background:rgba(52, 185, 19, 0.589);
+    border: 3px solid rgba(52, 185, 19, 0.267); 
+    
+
     
 }
 
@@ -50,16 +43,48 @@ header nav ul li a:hover {
     color: orange;
     border-radius: 15px;
     text-shadow: none;
-}
-
-header title{
-    font-weight: bold;
     
 }
+
+
+    
+
+
+header h1 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+    text-shadow: 0 2 10px(lime);
+}
+
+header h2 {
+    padding: 50px;
+    text-align: center;
+}
+
+header h2 p {
+    padding: 50px;
+}
 /* Main Website */
+.main {
+    background-image: url("../assets/Images/error.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 50%;
+    z-index: 9999;
+}
+
+section {
+    padding: 60px;
+}
 
 section img {
     width: 100%;
+    
     
 }
 
@@ -68,24 +93,44 @@ section img {
     margin:auto
 }
 
-h1 {
-    font-size: 50px;
-    
-}
 
-.row,
-.row > .column {
-    padding: 8px;
-}
+
+
 
 .column {
     float: left;
-    width: 25%;
+    width: 100%;
+    color: white;
+    
 }
 /*content*/
 .content {
-    background-color: white;
+    background-color:  rgba(0, 0, 0, 0.445);
     padding: 10px;
+    margin-right: 20px;
+    
+    
+}
+
+
+
+.run-buddy {
+    background-color: rgba(0, 0, 0, 0.445);
+    padding: 10px;
+    
+    margin-right: 20px;
+    
+}
+/*footer*/
+.footer {
+    width: 100%;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background:rgba(52, 185, 19, 0.589);
+    border: 3px solid rgba(52, 185, 19, 0.267);
 }
 
 /*responsive layouts*/
